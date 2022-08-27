@@ -1,0 +1,6 @@
+class ParkingSystemException(Exception):
+    ...
+
+
+class ParkingGettingError(ParkingSystemException):
+    ...
